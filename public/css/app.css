@@ -1,6 +1,6 @@
 .container{
-  margin: 0px;
-  padding: 0px;
+  margin: 100px;
+  padding: 100px;
   width:100%;
 }
 
@@ -14,6 +14,23 @@ footer{
 
 .company{
   color: yellow;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  webkit-text-size-adjust: 100%;
+}
+body{
+
+  background:url(../img/lipstick123.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.nav{
+  background:pink;
 }
 
 /*
