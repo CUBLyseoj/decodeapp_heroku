@@ -63,7 +63,7 @@ class App{
 		let y = document.getElementById('updateBrand');
 		let d = document.getElementById('updateColor');
 		let m = this.lipstick[key];
-		let lipstick = {"id":m.id,"Name":t.value,"Brand":y.value,"Color":d.value,"Img":m.Img};
+		let lipstick = {"id":m.id,"Name":t.value,"Brand":y.value,"Color":d.value};
 		this.lipstick[key] = lipstick;
 		let details = document.getElementById('lipstickDetails');
 		details.innerHTML = "";
