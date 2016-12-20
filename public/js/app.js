@@ -251,14 +251,14 @@ class Component extends App{
 		        	<span class="input-group-addon">
 		        		<span>Brand</span>
 		        	</span>
-		        	<input class="form-control" id="updateYear" type="text" value="${this.lipstick[key].Brand}" /><br/>
+		        	<input class="form-control" id="updateBrand" type="text" value="${this.lipstick[key].Brand}" /><br/>
 		        </div>
 		        <br/>
 		        <div class="input-group input-group-md">
 		        	<span class="input-group-addon">
 		        		<span>Color</span>
 		        	</span>
-		        	<input class="form-control" id="updateDirector" type="text" value="${this.lipstick[key].Color}" /><br/>
+		        	<input class="form-control" id="updateColor" type="text" value="${this.lipstick[key].Color}" /><br/>
 		        </div>	
 		        <br/>
 					<br/>
