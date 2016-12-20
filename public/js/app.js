@@ -200,7 +200,7 @@ class Component extends App{
 	lipstickDetails(key){
 		this.reRender(
 			`
-				<h1>Movie Details</h1>
+				<h1>Lipstick Details</h1>
 				<div class="media">
 				    <div class="media-left">
 				        <a href="#">
