@@ -211,9 +211,9 @@ class Component extends App{
 				        <h4 class="media-heading">${this.lipstick[key].Name}</h4>
 				        Brand: ${this.lipstick[key].Brand}<br/>
 						Color: ${this.lipstick[key].Color}<br/>
-						<button class="btn btn-success" onclick="component.lipstickUpdate(${key})">Update</button>
-						<button class="btn btn-danger" onclick="component.deleteLipstick(${key})">Delete</button>
-						<button class="btn btn-info" onclick="component.showLipstickList()">Back</button>
+						<button class="btn btn-primary onclick="component.lipstickUpdate(${key})">Update</button>
+						<button class="btn btn-primary onclick="component.deleteLipstick(${key})">Delete</button>
+						<button class="btn btn-primary onclick="component.showLipstickList()">Back</button>
 					</div>	
 				</div>			
 			`,document.getElementById('lipstickDetails'));
@@ -262,7 +262,7 @@ class Component extends App{
 		        </div>	
 		        <br/>
 					<br/>
-				<button class="btn btn-success btn-block" onclick="component.updateLipstick(${key})">Save</button>
+				<button class="btn btn-primary onclick="component.updateLipstick(${key})">Save</button>
 			`,document.getElementById('lipstickDetailsInfo'));
 	}
 	
